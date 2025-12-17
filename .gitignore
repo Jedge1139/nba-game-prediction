@@ -7,7 +7,6 @@ __pycache__/
 .vscode/
 
 # Data
-data/*.csv
 data/*.zip
 
 # Jupyter
