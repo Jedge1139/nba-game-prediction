@@ -65,7 +65,7 @@ Prints Accuracy and Classification Report to terminal.
 
 Generates Feature Importance plots for Random Forest and Gradient Boosting.
 
-Example Classification Report:
+Classification Report:
 ```
               precision    recall  f1-score   support
 
