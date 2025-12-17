@@ -65,16 +65,20 @@ Prints Accuracy and Classification Report to terminal.
 
 Generates Feature Importance plots for Random Forest and Gradient Boosting.
 
+Ensemble Accuracy: 0.8809523809523809
+
 Classification Report:
 ```
+
               precision    recall  f1-score   support
 
-           0       0.90      0.76      0.83        34
-           1       0.85      0.94      0.90        50
+           0       0.90      0.79      0.84        34
+           1       0.87      0.94      0.90        50
 
-    accuracy                           0.87        84
-   macro avg       0.88      0.85      0.86        84
-weighted avg       0.87      0.87      0.87        84
+    accuracy                           0.88        84
+   macro avg       0.89      0.87      0.87        84
+weighted avg       0.88      0.88      0.88        84
+
 ```
 
 ## 🛠 Models Used
