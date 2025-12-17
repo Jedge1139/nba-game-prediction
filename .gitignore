@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# VSCode
+.vscode/
+
+# Data
+data/*.csv
+data/*.zip
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment
+.env
