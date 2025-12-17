@@ -58,7 +58,8 @@ Download the dataset from Kaggle and place games.csv in the data/ folder.
 Run the project:
 
 python src/main.py
-📊 Results
+
+##📊 Results
 
 Prints Accuracy and Classification Report to terminal.
 
@@ -75,7 +76,7 @@ Example Classification Report:
    macro avg       0.88      0.85      0.86        84
 weighted avg       0.87      0.87      0.87        84
 
-🛠 Models Used
+##🛠 Models Used
 
 Logistic Regression – linear baseline
 
@@ -85,7 +86,7 @@ Gradient Boosting – sequential ensemble for improved accuracy
 
 Voting Ensemble – combines all three models for stable predictions
 
-💡 Feature Engineering
+##💡 Feature Engineering
 
 Rolling averages and differentials (points scored, points allowed)
 
@@ -97,15 +98,7 @@ Home court advantage (historical home win rate)
 
 Head-to-head win rate between teams
 
-⚠️ Notes
-
-Large raw dataset (games.csv) should not be committed to GitHub.
-
-Use .gitignore to exclude local data and environment files.
-
-Scaling features improves Logistic Regression performance.
-
-📈 Future Improvements
+##📈 Future Improvements
 
 Hyperparameter tuning (GridSearchCV / RandomizedSearchCV)
 
